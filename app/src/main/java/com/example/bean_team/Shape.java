@@ -5,8 +5,10 @@ abstract class Shape{
     Integer x;
     Integer y;
     
-    String color;
-	
+
+    String color = "purple";
+
+
     public Shape(Integer x,Integer y,String color){
         this.x = x;
         this.y = y;
