@@ -2,7 +2,9 @@ package com.example.bean_team;
 
 public class Circle extends Shape {
     
-    public Circle(Integer x, Integer y){
-        super(x,y);
+    String color;
+
+    public Circle(Integer x, Integer y,String color){
+        super(x,y,color);
     }
 }
